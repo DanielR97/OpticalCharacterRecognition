@@ -1,0 +1,10 @@
+Libraries:
+    - pip install pillow
+    - pip install pytesseract
+    - pip install opencv-python
+    - pip install tesseract
+    - pip install tesseract-ocr
+
+Tesseract:
+    - Install: https://github.com/UB-Mannheim/tesseract/wiki
+    - Add to path
