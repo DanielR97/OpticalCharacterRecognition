@@ -1,10 +1,25 @@
-Libraries:
-    - pip install pillow
-    - pip install pytesseract
-    - pip install opencv-python
-    - pip install tesseract
-    - pip install tesseract-ocr
+Windows:
 
-Tesseract:
-    - Install: https://github.com/UB-Mannheim/tesseract/wiki
-    - Add to path
+    Libraries:
+        - pip install pillow
+        - pip install pytesseract
+        - pip install opencv-python
+        - pip install tesseract
+        - pip install tesseract-ocr
+
+    Tesseract:
+        - Install: https://github.com/UB-Mannheim/tesseract/wiki
+        - Add to path
+
+
+Ubuntu:
+
+    Libraries:
+        - pip3 install pillow
+        - pip3 install pytesseract
+        - pip3 install opencv-python
+        - pip3 install tesseract
+        - pip3 install tesseract-ocr
+
+    Tesseract:
+        - Install: apt install tesseract-ocr
